@@ -25,12 +25,17 @@
 
 //QUESTION 05
 
-let fruits = ["apple", "mango", "banana", "orange", "strawberry"]
-for (let i = 0 ; i < fruits.length ; i++){
-    document.write(fruits[i] + "<br />")
-}
-document.write (`Element at index ${fruits.length-5} is ${fruits[fruits.length-5]}`,
-    `Element at index ${fruits.length-4} is ${fruits[fruits.length-4]}`,
-    `Element at index ${fruits.length-3} is ${fruits[fruits.length-3]}`
-)
+//let fruits = ["apple", "mango", "banana", "orange", "strawberry"]
+//for (let i = 0 ; i < fruits.length ; i++){
+//    document.write(fruits + "<br />")
+//}
+//document.write("<br />")
+//
+//for (let i = 0 ; i < fruits.length ; i++){
+//      document.write(`Element at index ${i} is ${fruits[i]} <br />`)
+//
+//}
+
+
+
 

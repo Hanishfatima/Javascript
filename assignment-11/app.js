@@ -175,3 +175,4 @@
 // let count=str.match(/the/g);
 //let length=count.length;
 // document.write(`Text:'${str}<br> There are ${length} occurence(s) of word "the"`)
+ alert("2" + 2) 

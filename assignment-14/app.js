@@ -103,16 +103,46 @@ function factorial(num) {
 
 alert(`The factorial of ${number} is ${result}`);  */
 
+/*QUESTION 7 
+
+7. Write a function that take start and end number as inputs
+& display counting in your browser.
+
 function showCounting(start, end) {
   for (let i = start; i <= end; i++) {
-    document.write(i + "<br>");
-  }
-}
-
+    document.write(i + "<br>");}}
 let startNum = Number(prompt("Enter start number:"));
 let endNum = Number(prompt("Enter end number:"));
-
 showCounting(startNum, endNum);
+*/
+
+/*QUESTION 8
+
+8. Write a nested function that computes hypotenuse of a
+right angle triangle.
+Hypotenuse2 = Base2 + Perpendicular2 
+Take base and perpendicular as inputs.
+Outer function : calculateHypotenuse()
+Inner function: calculateSquare()
+
+
+ function calculateHypotenuse() {
+  function calculateSquare(x) {
+    return x * x;
+  }
+  let base = Number(prompt("Enter the base of the triangle:"));
+  let perpendicular = Number(prompt("Enter the perpendicular of the triangle:"));
+  let baseSquare = calculateSquare(base);
+  let perpendicularSquare = calculateSquare(perpendicular);
+  let hypotenuse = Math.sqrt(baseSquare + perpendicularSquare);
+  alert(`The hypotenuse of the triangle is: ${hypotenuse}`);
+}
+calculateHypotenuse();*/
+
+/*QUESTION 9 */
+
+
+
 
 
 
